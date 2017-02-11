@@ -23,13 +23,43 @@ public class HW2_30 {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //Listing all of the varibles planned to use
-        int inputnum,
+        
+//Listing all of the varibles planned to use
+            int inputnum,
                 tenThous,
                 thousandths,
                 hundreths,
                 tens,    
                 ones;
+        
+            //So were putting the number of input into a varible
+            System.out.println("Please enter 5 digits.");
+            System.out.print(">");
+            inputnum = input.nextInt();
+           
+            //and the math begins
+            tenThous = inputnum / 10000;
+            
+                inputnum = inputnum - (tenThous * 10000);
+            
+            thousandths = inputnum / 1000;
+            
+                inputnum = inputnum - (thousandths * 1000);
+            
+            hundreths = inputnum / 100;
+            
+                inputnum = inputnum - (hundreths * 100);
+            
+            tens = inputnum / 10;
+            
+                inputnum = inputnum - (tens * 10);
+            
+            ones = inputnum / 1;
+                inputnum = inputnum - (tens * 1);
+                    
+            
+        System.out.printf("%d%n %d%n %d%n %d%n %d%n", tenThous, thousandths,
+                hundreths,tens, ones);
         
     }
     
