@@ -58,7 +58,7 @@ public class HW2_30 {
                 inputnum = inputnum - (tens * 1);
                     
             
-        System.out.printf("%d%n %d%n %d%n %d%n %d%n", tenThous, thousandths,
+        System.out.printf("%d   %d   %d   %d   %d", tenThous, thousandths,
                 hundreths,tens, ones);
         
     }
