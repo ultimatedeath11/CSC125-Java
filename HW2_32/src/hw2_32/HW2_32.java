@@ -61,6 +61,67 @@ public class HW2_32 {
                 zero = zero + 1;
             }
              
+        if(num2 > 0)
+        {
+            posnum = posnum + 1;
+        }
+            else if (num2 < 0)
+            {
+                negnum = negnum + 1;
+            }
+            
+            else if (num2 == 0)
+            {
+                zero = zero + 1;
+            }
+        
+        if(num3 > 0)
+        {
+            posnum = posnum + 1;
+        }
+            else if (num3 < 0)
+            {
+                negnum = negnum + 1;
+            }
+            
+            else if (num3 == 0)
+            {
+                zero = zero + 1;
+            }
+             
+        if(num4 > 0)
+        {
+            posnum = posnum + 1;
+        }
+            else if (num4 < 0)
+            {
+                negnum = negnum + 1;
+            }
+            
+            else if (num4 == 0)
+            {
+                zero = zero + 1;
+            }
+        
+        if(num5 > 0)
+        {
+            posnum = posnum + 1;
+        }
+            else if (num5 < 0)
+            {
+                negnum = negnum + 1;
+            }
+            
+            else if (num5 == 0)
+            {
+                zero = zero + 1;
+            }
+             
+        
+        System.out.printf("Number of positive: %d%nNumber of Negative numbers:"
+                + "%d%n You input '0' a total of %d", posnum, negnum, zero);
+             
+             
     }
     
 }
