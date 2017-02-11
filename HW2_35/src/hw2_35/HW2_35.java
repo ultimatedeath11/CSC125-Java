@@ -29,7 +29,7 @@ public class HW2_35 {
             numOfPeopleinCar,
             mperg;
     
-    float CostGas,
+    double CostGas,
             parkFee,
             savings,
             tollsPerDay;
@@ -63,6 +63,7 @@ public class HW2_35 {
     
     savings = (Tmiles * (mperg / CostGas) * numOfPeopleinCar + (tollsPerDay * numOfPeopleinCar * parkFee));
     
+        System.out.printf("The total savings that can be saved is %d", savings);
     }
     
 }
