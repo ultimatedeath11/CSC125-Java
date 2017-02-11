@@ -26,14 +26,41 @@ public class HW2_32 {
                 num3,
                 num4,
                 num5,
-                posnum,
-                negnum,
-                zero;
+                posnum = 0,
+                negnum = 0,
+                zero = 0;
         
+        //defining varibles
         
+        System.out.print(">");
+            num1 = input.nextInt();
         
+        System.out.print(">");
+            num2 = input.nextInt();
         
+        System.out.print(">");
+            num3 = input.nextInt();
         
+        System.out.print(">");
+            num4 = input.nextInt();
+        
+        System.out.print(">");
+            num5 = input.nextInt();
+        
+        if(num1 > 0)
+        {
+            posnum = posnum + 1;
+        }
+            else if (num1 < 0)
+            {
+                negnum = negnum + 1;
+            }
+            
+            else if (num1 == 0)
+            {
+                zero = zero + 1;
+            }
+             
     }
     
 }
