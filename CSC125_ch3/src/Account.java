@@ -12,7 +12,7 @@ public class Account { //the class declaration
     private String name; //instance barible 
     
     //constructor name initilizeds name with paramert name... ID
-    public Account(String args[]) //constructio name is class name
+    public Account(String name) //constructio name is class name
     {
         this.name = name;
     }
