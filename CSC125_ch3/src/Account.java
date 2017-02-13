@@ -10,12 +10,20 @@
  */
 public class Account { //the class declaration
     private String name; //instance barible 
+    private double balance; 
     
     //constructor name initilizeds name with paramert name... ID
     public Account(String name) //constructio name is class name
     {
         this.name = name;
+        
+        //validate that the balance is greater than 0.0; if it's noe, 
+        //instance variable balance keeps its default initial vale of 0.0
+        if(balance > 0.0)
+            this.balance = balance;
+        
     }
+    
     
     //method to set the name in the object
     public void setName(String name)
