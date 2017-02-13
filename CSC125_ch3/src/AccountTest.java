@@ -26,7 +26,7 @@ public class AccountTest {
         //displays initial value of name for each account
         
         System.out.printf("account1 name is: %s%n", account1.getName());
-        System.out.printf("account2 name is: %s%n", account2.getName());
+        System.out.printf("account2 name is: %s%n", account.getName());
     }
     
 }
