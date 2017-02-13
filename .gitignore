@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/Personal_computer
 # Created by https://www.gitignore.io/api/macos,windows,code-java,java,netbeans
 
 ### Code-Java ###
@@ -83,3 +86,23 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/macos,windows,code-java,java,netbeans
+<<<<<<< HEAD
+=======
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/JavaApplication1/nbproject/private/
+/JavaApplication1/build/
+/HW2.17/nbproject/private/
+/HW2.17/build/
+/HW2.18/nbproject/private/
+/HW2.18/build/
+/HW2_30/nbproject/private/
+/HW2_30/build/
+/HW2_32/nbproject/private/
+/HW2_32/build/
+/HW2_35/nbproject/private/
+/HW2_35/build/
+/ch_3_examples/nbproject/private/
+/CSC125_ch3/nbproject/private/
+/CSC125_ch3/build/
+>>>>>>> refs/remotes/origin/Personal_computer
