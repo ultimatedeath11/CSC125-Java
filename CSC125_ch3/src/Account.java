@@ -27,4 +27,16 @@ public class Account { //the class declaration
       
     }
     
+    private double balance;
+    
+    public void deposite(double depositeAmount)
+    {
+        if (depositeAmount > 0.0)
+            balance = balance + depositeAmount;
+    }
+    
+    public double getBalance()
+    {
+        return balance;
+    }
 }
