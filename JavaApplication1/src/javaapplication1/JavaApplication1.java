@@ -20,6 +20,10 @@ public class JavaApplication1 {
       sum = num1 + num2;
       
       System.out.printf("Thank you for your numbers,and your sum is %d%n",sum);
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
       
     if (num1 == num2)
            System.out.printf("%d%n is the same as %d%n", num1, num2);
@@ -33,7 +37,12 @@ public class JavaApplication1 {
            System.out.printf("%d%n is less than or equal too %d%n", num1, num2);
     else if (num1 >= num2)
            System.out.printf("%d%n is greater than or equal too %d%n", num1, num2);
+<<<<<<< HEAD
     //the above will only do the  FIRST that comes to true       
+=======
+    //the above will only do the  FIRST that comes to true   
+              
+>>>>>>> refs/remotes/origin/master
     }
     
 }
