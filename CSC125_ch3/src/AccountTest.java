@@ -20,7 +20,8 @@ public class AccountTest {
         
         //create an Account object and assign it to myAccount
         
-        Account myAccount = new Account();
+        Account myAccount = new Account(); //this will take the program stright
+        // to the 11th line of Account.java file
         //display initial value of name (Null)
         System.out.printf("Initial name is: %s%n%n", myAccount.getName());
         
