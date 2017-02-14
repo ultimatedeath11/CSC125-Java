@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/macos,windows,code-java,java,netbeans
 
 ### Code-Java ###
@@ -99,3 +100,9 @@ hs_err_pid*
 /ch_3_examples/nbproject/private/
 /CSC125_ch3/nbproject/private/
 /CSC125_ch3/build/
+=======
+/JavaApplication1/nbproject/private/
+/CSC125_ch3/nbproject/private/
+/ch_3_examples/nbproject/private/
+/ch_3_examples/build/
+>>>>>>> refs/remotes/origin/master
