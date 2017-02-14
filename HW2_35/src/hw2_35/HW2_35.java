@@ -35,13 +35,15 @@ public class HW2_35 {
 
     double CostGas,
            parkFee,
+           initialSavings,
+           totalSavings,
            tollsPerDay;
 
-     float savings,
-      initialsavings,
-      CostGas,
-      parkFee,
-     tollsPerDay;
+     //float savings,
+      //initialsavings,
+      //CostGas,
+      //parkFee,
+     //tollsPerDay;
 
     //prompting and storing total miles deiven each day
 
@@ -70,11 +72,15 @@ public class HW2_35 {
     System.out.print(">");
     tollsPerDay = input.nextDouble();
 
-    initialsavings = (Tmiles * mperg * CostGas + parkFee + tollsPerDay);
+    initialSavings = ((Tmiles / mperg + (Tmiles % mperg)) * CostGas + parkFee + tollsPerDay);
 
-    savings = (numOfPeopleinCar * initialsavings);
+    //System.out.print(initialSavings);
+    totalSavings = (numOfPeopleinCar * initialSavings);
 
-        System.out.printf("The total savings that can be saved is %d", savings);
+    System.out.print("The total savings that can be saved is ");
+    System.out.print(totalSavings);
+        
+        
     }
 
 }
