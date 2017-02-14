@@ -9,13 +9,10 @@
  * @author noah
  */
 public class Account { //the class declaration
-    //private here states that only 'me' can see it
-    //the me in this is the class and only the class
     private String name; //instance barible 
-    private double balance;
     
     //method to set the name in the object
-    public void setName(String name, double balance)
+    public void setName(String name)
     {
         this.name = name; //store the name
         
@@ -28,16 +25,4 @@ public class Account { //the class declaration
       
     }
     
-    
-    
-    public void deposite(double depositeAmount)
-    {
-        if (depositeAmount > 0.0)
-            balance = balance + depositeAmount;
-    }
-    
-    public double getBalance()
-    {
-        return balance;
-    }
 }

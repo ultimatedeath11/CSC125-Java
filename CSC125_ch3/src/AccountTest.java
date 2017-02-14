@@ -18,9 +18,12 @@ public class AccountTest {
      //create a scenner object to obtain input form the command window
         Scanner input = new Scanner(System.in);
         
+        Account account1 = new Account("Jane Green", 50.00);
+        Account account2 = new Account("John Blue", -7.53);
         //create an Account object and assign it to myAccount
         
-        Account myAccount = new Account();
+        Account myAccount = new Account(); //this will take the program stright
+        // to the 11th line of Account.java file
         //display initial value of name (Null)
         System.out.printf("Initial name is: %s%n%n", myAccount.getName());
         
