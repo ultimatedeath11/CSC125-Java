@@ -9,6 +9,8 @@
  * @author noah
  */
 public class Account { //the class declaration
+    //private here states that only 'me' can see it
+    //the me in this is the class and only the class
     private String name; //instance barible 
     
     //method to set the name in the object
