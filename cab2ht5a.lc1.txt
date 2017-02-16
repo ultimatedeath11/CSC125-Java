@@ -1,0 +1,44 @@
+﻿Merge remote-tracking branch 'refs/remotes/origin/master' into in_class
+
+# Conflicts:
+#	.gitignore
+#	CSC125_ch3/nbproject/private/private.properties
+#	CSC125_ch3/nbproject/private/private.xml
+#	JavaApplication1/nbproject/private/private.properties
+#	JavaApplication1/nbproject/private/private.xml
+#	ch_3_examples/nbproject/private/private.properties
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch in_class
+# Your branch is ahead of 'origin/in_class' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   CSC125_ch3/build/built-jar.properties
+#	new file:   CSC125_ch3/build/classes/.netbeans_automatic_build
+#	new file:   CSC125_ch3/build/classes/.netbeans_update_resources
+#	new file:   CSC125_ch3/build/classes/Account.class
+#	new file:   CSC125_ch3/build/classes/AccountTest.class
+#	modified:   CSC125_ch3/src/Account.java
+#	modified:   CSC125_ch3/src/AccountTest.java
+#	new file:   HW2.17/build/built-jar.properties
+#	new file:   HW2.17/nbproject/private/private.properties
+#	new file:   HW2.17/nbproject/private/private.xml
+#	new file:   HW2_35/build/built-jar.properties
+#	new file:   HW2_35/build/classes/hw2_35/HW2_35.class
+#	new file:   HW2_35/nbproject/private/private.properties
+#	new file:   HW2_35/nbproject/private/private.xml
+#	modified:   HW2_35/src/hw2_35/HW2_35.java
+#	new file:   JavaApplication1/build/built-jar.properties
+#	new file:   JavaApplication1/build/classes/javaapplication1/JavaApplication1.class
+#
+

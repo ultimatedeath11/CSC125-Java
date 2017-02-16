@@ -40,18 +40,7 @@ public class HW2_35 {
            totalSavings,
            tollsPerDay;
 
-    // float savings,
 
-           initialSavings,
-           totalSavings,
-           tollsPerDay;
-
-     //float savings,
-
-      //initialsavings,
-      //CostGas,
-      //parkFee,
-     //tollsPerDay;
 
     //prompting and storing total miles deiven each day
 
