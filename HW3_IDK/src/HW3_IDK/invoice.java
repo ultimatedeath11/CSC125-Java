@@ -4,6 +4,7 @@ public class invoice
   private double quanpurcashed;
   private double invoiceamount;
   private double price;
+  private String partinfo;
 
   public void setpartNumb(string partNum){
     this.name = partNum;
@@ -12,6 +13,14 @@ public class invoice
 
   public String getpartNum(){
     return partNum;
+  }
+
+  public void setpartinfo(String){
+    this.name = partinfo;
+  }
+
+  public String getpartinfo(){
+    return partinfo;
   }
 
   public void setquanpurchased(double quanpurcashed){
