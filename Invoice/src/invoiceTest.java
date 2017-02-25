@@ -1,20 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+public class invoiceTest{
 
-/**
- *
- * @author noah.franck
- */
-public class invoiceTest {
+  public static void main(String[] args) {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+    Invoice myInvoice = new Invoice();
+
+  System.out.println("currently we have Hammers, nails, hardhats, and ducktype");
+
+
+  
+
+
+
+  }
+
+
+
+
 }
