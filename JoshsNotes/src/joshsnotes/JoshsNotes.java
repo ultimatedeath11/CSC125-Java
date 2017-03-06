@@ -48,10 +48,19 @@ public class JoshsNotes
         
         // arrays
         // creating a new object that is an array
+        //the i is the inxex or location in the array
         int[] arr = new int[10];
+        
         for (int i = 0; i < 10; i++){
-            arr[i] = i;
-            System.out.print(arr[i]+", ");
+            for(int j = 0; j <=5; j++){
+                arr[i][j] = i + j;
+                System.out.print(arr[i][j]+ ", ");
+                
+            }
+                
+            
+//            arr[i] = i;
+//            System.out.print(arr[i]+", ");
         }
         
         
