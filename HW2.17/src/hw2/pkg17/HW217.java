@@ -47,9 +47,9 @@ public class HW217 {
         prodnum123 = num1 * num2 * num3;
         numavg = (num1 + num2 + num3) / 3;
 
-        System.out.printf("They add up to %d%n, and "
-                + "when multiplied together, they are %d%n, and "
-                + "their average is %d%n", numsum, prodnum123, numavg);
+        System.out.printf("They add up to %d, and "
+                + "when multiplied together, they are %d, and "
+                + "their average is %d", numsum, prodnum123, numavg);
 
         //largest number if statment
         if ((num1 > num2) && (num2 > num3)) {
@@ -62,7 +62,7 @@ public class HW217 {
         //smallest number if statements number 2
         if((num1 > num2) && (num3 > num2))
         {
-            System.out.printf("The smallest number is %n%d", num2);
+            System.out.printf("The smallest number is %d", num2);
         }
         //Smallest number is first number
         else if((num2 > num1) && (num3 > num1)){
