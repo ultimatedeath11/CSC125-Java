@@ -39,25 +39,32 @@ public class Ch4_19
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input = new Scanner(System.in);
-        System.out.print("Please enter the quantity of item 1 sold%n>");
+        System.out.printf("Please enter the quantity of item 1 sold %n>");
         int numOf1 = input.nextInt();
         
-        System.out.print("How many did the same seller sell of item 2?%n>");
+        System.out.printf("How many did the same seller sell of item 2?%n>");
         int numOf2 = input.nextInt();
         
-        System.out.print("Please enter the quantity of item 3 that was sold?%n>");
+        System.out.printf("Please enter the quantity of item 3 that was sold?%n>");
         int numOf3 = input.nextInt();
         
-        System.out.print("Please enter the quantity of item 4 that was sold?%n>");
+        System.out.printf("Please enter the quantity of item 4 that was sold?%n>");
         int numOf4 = input.nextInt();
         
-        System.out.print("Please enter the quantity of item 5 that was sold?%n>");
+        System.out.printf("Please enter the quantity of item 5 that was sold?%n>");
         int numOf5 = input.nextInt();
         
         double total = numOf1 * 2399.99;
         total = (numOf2 * 129.75) + total;
         total = (numOf3 * 99.95) + total;
         total = (numOf4 * 350.89) + total;
+        
+        System.out.print("this is teh amount that he recieved frorm commission $");
+        System.out.println(total);
+        System.out.print("And this is how much money he will get over all $");
+        System.out.print(total+200);
+        
+        
     }
     
 }
