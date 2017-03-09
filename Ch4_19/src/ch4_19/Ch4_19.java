@@ -54,7 +54,10 @@ public class Ch4_19
         System.out.print("Please enter the quantity of item 5 that was sold?%n>");
         int numOf5 = input.nextInt();
         
-        
+        double total = numOf1 * 2399.99;
+        total = (numOf2 * 129.75) + total;
+        total = (numOf3 * 99.95) + total;
+        total = (numOf4 * 350.89) + total;
     }
     
 }
