@@ -59,7 +59,7 @@ public class Ch4_18
         System.out.println("What is the total of all payments and returns made?");
         totalAllPayment = input.nextInt();
         
-        newBalance = beginbal + totalAllItems + totalAllPayment;
+        newBalance = beginbal + totalAllItems - totalAllPayment;
 //        we have done the math for the new balance, now to compare them new 
 //        balance and the credit limit that the customer has established, to make
 //        sure that the customer does not have to pay a fee. 
@@ -75,7 +75,8 @@ public class Ch4_18
             
             System.out.print("The total intrest charge is " 
                     + intrestToBePaid / 12 +", and your new balance is ");
-            newBalance = intrestToBePaid + beginbal;
+            newBalance = intrestToBePaid + newBalance;
+            //I think that this is my bug. 
         }
                 
                 
