@@ -68,12 +68,12 @@ public class Ch4_18
             
         if (beginbal > totalAllPayment){
             System.out.println("Your account has incurred a intrest charge at"
-                    + "a rate of" +intrestPercent * 100+ "%.");
+                    + " a rate of " +intrestPercent * 100+ "%.");
             
             intrestToBePaid = intrestPercent* (beginbal - totalAllPayment);
             
-            System.out.print("The total intrest charge is" 
-                    + intrestToBePaid +", and your new balance is ");
+            System.out.print("The total intrest charge is " 
+                    + intrestToBePaid / 12 +", and your new balance is ");
             newBalance = intrestToBePaid + beginbal;
         }
                 
@@ -85,8 +85,8 @@ public class Ch4_18
             System.out.println("You now owe $" +newBalance+ ", and you will not "
                     + "be able to charge anymore.");
         }else{
-            System.out.println("Your new balance is $" +newBalance+ "Thank you,"
-                    + "for your last payment of" +totalAllPayment+ "last month");
+            System.out.println("Your new balance is $" +newBalance+ " Thank you,"
+                    + " for your last payment of $" +totalAllPayment+ " last month");
             
         }
         
