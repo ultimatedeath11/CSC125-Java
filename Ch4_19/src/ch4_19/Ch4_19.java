@@ -38,6 +38,9 @@ public class Ch4_19
     
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        for (int i =1;i>=0;i++){
+        
         Scanner input = new Scanner(System.in);
         System.out.printf("Please enter the quantity of item 1 sold %n>");
         int numOf1 = input.nextInt();
@@ -59,10 +62,12 @@ public class Ch4_19
         total = (numOf3 * 99.95) + total;
         total = (numOf4 * 350.89) + total;
         
-        System.out.print("this is teh amount that he recieved frorm commission $");
+        System.out.print("this is the amount that employee number " +i+
+                "recieved from commission $");
         System.out.println(total);
         System.out.print("And this is how much money he will get over all $");
         System.out.print(total+200);
+        }
         
         
     }
