@@ -5,7 +5,6 @@
  */
 package ch4_18;
 
-import java.util.Random;
 import java.util.Scanner;
 public class Ch4_18
 {
@@ -33,20 +32,36 @@ public class Ch4_18
         
          Scanner input = new Scanner(System.in);
         
+        double beginbal; 
         int accnum,
-                beginbal,
                 totalAllItems,
                 totalAllPayment,
+                newBalance,
                 creditLimit;
         
         System.out.println("What is the person's account number?");
         accnum = input.nextInt();
         
-        Random generator = new Random();
+        System.out.println("What is the account's balance?");
+        beginbal = input.nextDouble();
+        
+        System.out.println("What charges has he tried to make?");
+        totalAllItems = input.nextInt();
+        //I chose inputs to be an integer because with my card, they will round
+        //off the change for my avalible credit, but they will stil make me pay
+        
+        System.out.println("What is the total credit limit allowed?");
+        creditLimit = input.nextInt();
+        
+        System.out.println("What is the total of all payments and returns made?");
+        totalAllPayment = input.nextInt();
         
         
         
-        System.out.print(beginbal) ;
+        
+        
+        
+        
     }
     
 }
