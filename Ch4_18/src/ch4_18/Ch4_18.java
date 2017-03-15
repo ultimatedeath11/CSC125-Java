@@ -5,10 +5,8 @@
  */
 package ch4_18;
 
-/**
- *
- * @author noah.franck
- */
+import java.util.Random;
+import java.util.Scanner;
 public class Ch4_18
 {
 
@@ -33,10 +31,22 @@ public class Ch4_18
     public static void main(String[] args) {
         
         
+         Scanner input = new Scanner(System.in);
+        
+        int accnum,
+                beginbal,
+                totalAllItems,
+                totalAllPayment,
+                creditLimit;
+        
+        System.out.println("What is the person's account number?");
+        accnum = input.nextInt();
+        
+        Random generator = new Random();
         
         
         
-        
+        System.out.print(beginbal) ;
     }
     
 }
