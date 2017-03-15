@@ -29,6 +29,7 @@ public class Ch4_18
     **/
     public static void main(String[] args) {
         
+        for(int i = 0;i >= 0; i++){
         
          Scanner input = new Scanner(System.in);
         
@@ -95,4 +96,5 @@ public class Ch4_18
         
     }
     
+    }
 }
