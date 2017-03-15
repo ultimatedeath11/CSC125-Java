@@ -62,7 +62,22 @@ public class Ch4_18
 //        we have done the math for the new balance, now to compare them new 
 //        balance and the credit limit that the customer has established, to make
 //        sure that the customer does not have to pay a fee. 
-        
+
+
+//creating a condtion statement to determin if there is intrest charged. 
+            
+        if (beginbal > totalAllPayment){
+            System.out.println("Your account has incurred a intrest charge at"
+                    + "a rate of" +intrestPercent * 100+ "%.");
+            
+            intrestToBePaid = intrestPercent* (beginbal - totalAllPayment);
+            
+            System.out.print("The total intrest charge is" 
+                    + intrestToBePaid +", and your new balance is ");
+            newBalance = intrestToBePaid + beginbal;
+        }
+                
+                
         if(newBalance > creditLimit){
             System.out.println("You have exceded credit limit, and "
                     + "will recieve a $15 charge");
@@ -75,16 +90,7 @@ public class Ch4_18
             
         }
         
-        if (beginbal > totalAllPayment){
-            System.out.println("Your account has incurred a intrest charge at"
-                    + "a rate of" +intrestPercent * 100+ "%.");
-            
-            intrestToBePaid = intrestPercent* (beginbal - totalAllPayment);
-            
-            System.out.print("The total intrest charge is" 
-                    + intrestToBePaid +", and your new balance is ");
-            newBalance = intrestToBePaid + beginbal;
-        }
+
         
         
     }
