@@ -33,6 +33,8 @@ public class Ch4_18
          Scanner input = new Scanner(System.in);
         
         double newBalance,
+                intrestToBePaid,
+                intrestPercent = .2024,
                 beginbal; 
         int accnum,
                 totalAllItems,
@@ -73,7 +75,16 @@ public class Ch4_18
             
         }
         
-        
+        if (beginbal > totalAllPayment){
+            System.out.println("Your account has incurred a intrest charge at"
+                    + "a rate of" +intrestPercent * 100+ "%.");
+            
+            intrestToBePaid = intrestPercent* (beginbal - totalAllPayment);
+            
+            System.out.print("The total intrest charge is" 
+                    + intrestToBePaid +", and your new balance is ");
+            newBalance = intrestToBePaid + beginbal;
+        }
         
         
     }
