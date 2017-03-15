@@ -32,11 +32,11 @@ public class Ch4_18
         
          Scanner input = new Scanner(System.in);
         
-        double beginbal; 
+        double newBalance,
+                beginbal; 
         int accnum,
                 totalAllItems,
                 totalAllPayment,
-                newBalance,
                 creditLimit;
         
         System.out.println("What is the person's account number?");
@@ -56,8 +56,22 @@ public class Ch4_18
         System.out.println("What is the total of all payments and returns made?");
         totalAllPayment = input.nextInt();
         
+        newBalance = beginbal + totalAllItems + totalAllPayment;
+//        we have done the math for the new balance, now to compare them new 
+//        balance and the credit limit that the customer has established, to make
+//        sure that the customer does not have to pay a fee. 
         
-        
+        if(newBalance > creditLimit){
+            System.out.println("You have exceded credit limit, and "
+                    + "will recieve a $15 charge");
+            newBalance = newBalance + 15;
+            System.out.println("You now owe $" +newBalance+ ", and you will not "
+                    + "be able to charge anymore.");
+        }else{
+            System.out.println("Your new balance is $" +newBalance+ "Thank you,"
+                    + "for your last payment of" +totalAllPayment+ "last month");
+            
+        }
         
         
         
