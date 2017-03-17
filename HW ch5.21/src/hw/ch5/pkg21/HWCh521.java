@@ -31,16 +31,25 @@ public class HWCh521 {
         int B = 0;
         int C = 0;
         
-        System.out.print("Right triangles occur at the following points:");
-        for(; A < 500; A++){
-            for(; B < 500; B++){
-                for(;C < 500; C++){
+        System.out.println("Right triangles occur at the following points:");
+        while(A < 500){
+            while(B < 500){
+                while(C < 500){
                     if((A * A) + (B * B) == (C * C) ){
+                        
+                        System.out.print(A);
+                        
                         System.out.println("Side: " +A+ " Side: "+ B + 
                                 " Hyponenuce: "+ C );
+                    }else{
+                        System.out.println(C);
                     }
+                    C = C +1;
                 }
+                B = B+1;
             }
+            A = A+1;
+            System.out.println(A);
         }
     }
     
