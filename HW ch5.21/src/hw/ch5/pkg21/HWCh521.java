@@ -27,14 +27,18 @@ public class HWCh521 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-                int A = 0;
+        int A = 0;
         int B = 0;
         int C = 0;
         
-        for(){
-            for(){
-                for(){
-                    
+        System.out.print("Right triangles occur at the following points:");
+        for(; A < 500; A++){
+            for(; B < 500; B++){
+                for(;C < 500; C++){
+                    if((A * A) + (B * B) == (C * C) ){
+                        System.out.println("Side: " +A+ " Side: "+ B + 
+                                " Hyponenuce: "+ C );
+                    }
                 }
             }
         }
