@@ -14,8 +14,19 @@ public class HWCh531 {
     /**
      * @param args the command line arguments
      */
+    
+    /**
+     *  Create a 5 questoin multiple choice quiz on global warming, each 
+     * question has 4 possible answers
+     * 
+     * write an application that gives the test, and calculates the number of 
+     * correct answers (0-5). have it give feedback
+     * @param args 
+     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+        
     }
     
 }
