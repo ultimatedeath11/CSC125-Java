@@ -33,24 +33,62 @@ public class HWCh521 {
         
         System.out.println("Right triangles occur at the following points:");
         while(A < 500){
+            
+            A = A+1;
+            
             while(B < 500){
+                
+                B = B+1;
+                
                 while(C < 500){
+                    
+                    C = C +1;
+         
                     if((A * A) + (B * B) == (C * C) ){
                         
                         System.out.print(A);
                         
                         System.out.println("Side: " +A+ " Side: "+ B + 
                                 " Hyponenuce: "+ C );
-                    }else{
-                        System.out.println(C);
                     }
-                    C = C +1;
+                    
+                
                 }
-                B = B+1;
+                 
+                
+            if((A * A) + (B * B) == (C * C) ){
+                        
+                        System.out.print(A);
+                        
+                        System.out.println("Side: " +A+ " Side: "+ B + 
+                                " Hyponenuce: "+ C );
+                    }
+            
+            
+                
             }
-            A = A+1;
-            System.out.println(A);
+            
+            if((A * A) + (B * B) == (C * C) ){
+                        
+                        System.out.print(A);
+                        
+                        System.out.println("Side: " +A+ " Side: "+ B + 
+                                " Hyponenuce: "+ C );
+                    }
+               
+            
+            
+            
         }
+        
+        
+        
+        
+        System.out.println(A);
+        System.out.println(B);
+        System.out.println(B);
+        
+        
     }
     
 }
