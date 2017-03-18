@@ -5,6 +5,8 @@
  */
 package hw.ch5.pkg31;
 
+import java.util.Scanner;
+
 /**
  *
  * @author noah
@@ -23,7 +25,40 @@ public class HWCh531 {
      * correct answers (0-5). have it give feedback
      * @param args 
      */
+    
+
+    
     public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        Char answer1,
+                answer2,
+                answer3,
+                answer4;
+        int totalCorrect = 0;
+        
+        
+        
+        
+        System.out.println("Welcome to the Test");
+        
+        System.out.println("Question 1: What species of animal has recently gone"
+                + "extince?");
+        System.out.println("A. Monkeys");
+        System.out.println("B: Bees");
+        System.out.println("C. Humans");
+        System.out.println("D. Birds");
+        System.out.println(">");
+        
+        answer1 = input.nextInt();
+        
+        if(answer1 == 'B'){
+            totalCorrect = totalCorrect + 1;
+        }else if(answer1 == 'b'){
+            totalCorrect = totalCorrect + 1;
+        }
+        
         
         
         
