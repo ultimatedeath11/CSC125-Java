@@ -27,17 +27,65 @@ public class HWCh521 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-                int A = 0;
+        int A = 0;
         int B = 0;
         int C = 0;
         
-        for(){
-            for(){
-                for(){
+        System.out.println("Right triangles occur at the following points:");
+        while(A <= 500){
+            
+            A = A+1;
+            
+            for(B = 1; B <= 500; B++){
+                
+                
+                
+                for(C = 1;C <= 500; C++){
                     
+                    
+         
+                    if(A * A + B * B == C * C ){
+                        
+                        
+                        
+                        System.out.println("Side: " +A+ " Side: "+ B + 
+                                " Hyponenuce: "+ C );
+                    }
+                    
+                
                 }
+                 
+                
+            if(A * A + B * B == C * C ){
+                        
+                        
+                        
+                        System.out.println("Side: " +A+ " Side: "+ B + 
+                                " Hyponenuce: "+ C );
+                    }
+            
+            
+                
             }
+            
+            if(A * A + B * B == C * C ){
+                        
+                        
+                        
+                        System.out.println("Side: " +A+ " Side: "+ B + 
+                                " Hyponenuce: "+ C );
+                    }
+               
+            
+            
+            
         }
+        
+        
+        
+        
+        
+        
     }
     
 }
