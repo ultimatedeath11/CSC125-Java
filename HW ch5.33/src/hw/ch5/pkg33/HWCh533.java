@@ -14,8 +14,16 @@ public class HWCh533 {
     /**
      * @param args the command line arguments
      */
+    
+        /**
+     * Use Compounding growth to calculate how much Facebook grows, assuming it grows
+     * at a constant rate of 4% a month. calculate how many months it would take
+     * for the user base to be 1.5 billion and 2 billion. 
+     */
+    
+           
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
