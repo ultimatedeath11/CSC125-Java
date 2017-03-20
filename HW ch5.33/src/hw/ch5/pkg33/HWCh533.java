@@ -23,7 +23,17 @@ public class HWCh533 {
     
            
     public static void main(String[] args) {
+        double facebookUsers = 1000000000;
+        int i = 0; 
         
+        
+        while (i <=0){
+        if (facebookUsers < 150000000){
+            facebookUsers = facebookUsers * .04;
+            System.out.println("In the first month, Facebook's user total is " +
+            facebookUsers);
+        }
+        }
     }
     
 }
