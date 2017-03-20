@@ -27,26 +27,29 @@ public class HWCh533 {
         int i = 0; 
         
         
-        while (i <=0){
+        while (i >=0){
         if (facebookUsers < 1500000000){
-            facebookUsers = facebookUsers * .04;
-            System.out.println("In this month, Facebook's user total is " +
-            facebookUsers);
+            facebookUsers = (facebookUsers * .04) + facebookUsers;
+//            System.out.println("In this month, Facebook's user total is " +
+//            facebookUsers);
         }else if(facebookUsers < 2000000000){
-            facebookUsers = facebookUsers * .04;
-            System.out.println("Facebook users are now at this record high. " +
-                    facebookUsers);
+            facebookUsers = (facebookUsers * .04) * facebookUsers;
+//            System.out.println("Facebook users are now at this record high. " +
+//                    facebookUsers);
             
             }
-        i++;
+        i = i+1;
         
-        if (facebookUsers >= 1500000000 && facebookUsers < 2000000000){
+        if ((facebookUsers >= 1500000000) && (facebookUsers < 2000000000)){
             System.out.println("The Facebook community has grown to be "
                     + "1500000000 users storng, and it only took " + i+" months to do this");
         }else if (facebookUsers >= 2000000000){
-            System.out.println("Facebook Hits 2 Billion Users!!!");
+            System.out.println("Facebook Hits 2 Billion Users!!! In only "+ i+ 
+                    " months");
+            i = -3;
+            
         }
-        
+
         }
     }
     
