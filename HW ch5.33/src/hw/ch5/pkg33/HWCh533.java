@@ -39,6 +39,14 @@ public class HWCh533 {
             
             }
         i++;
+        
+        if (facebookUsers >= 1500000000 && facebookUsers < 2000000000){
+            System.out.println("The Facebook community has grown to be "
+                    + "1500000000 users storng, and it only took " + i+" months to do this");
+        }else if (facebookUsers >= 2000000000){
+            System.out.println("Facebook Hits 2 Billion Users!!!");
+        }
+        
         }
     }
     
