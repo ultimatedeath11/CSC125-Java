@@ -28,11 +28,17 @@ public class HWCh533 {
         
         
         while (i <=0){
-        if (facebookUsers < 150000000){
+        if (facebookUsers < 1500000000){
             facebookUsers = facebookUsers * .04;
-            System.out.println("In the first month, Facebook's user total is " +
+            System.out.println("In this month, Facebook's user total is " +
             facebookUsers);
-        }
+        }else if(facebookUsers < 2000000000){
+            facebookUsers = facebookUsers * .04;
+            System.out.println("Facebook users are now at this record high. " +
+                    facebookUsers);
+            
+            }
+        i++;
         }
     }
     
