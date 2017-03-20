@@ -1,0 +1,23 @@
+ant -f /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_18 -Dnb.internal.action.name=run run
+init:
+deps-jar:
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_18/build
+Updating property file: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_18/build/built-jar.properties
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_18/build/classes
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_18/build/empty
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_18/build/generated-sources/ap-source-output
+Compiling 1 source file to /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_18/build/classes
+compile:
+run:
+What is the person's account number?
+623
+What is the account's balance?
+1500
+What charges has he tried to make?
+35
+What is the total credit limit allowed?
+3000
+What is the total of all payments and returns made?
+1535
+Your new balance is $0.0 Thank you, for your last payment of $1535 last month
+What is the person's account number?
