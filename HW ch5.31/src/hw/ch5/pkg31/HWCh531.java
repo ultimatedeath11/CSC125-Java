@@ -32,7 +32,7 @@ public class HWCh531 {
         
         Scanner input = new Scanner(System.in);
         
-        Char answer1,
+        char answer1,
                 answer2,
                 answer3,
                 answer4;
@@ -51,7 +51,7 @@ public class HWCh531 {
         System.out.println("D. Birds");
         System.out.println(">");
         
-        answer1 = input.nextInt();
+        answer1 = input.nextChar();
         
         if(answer1 == 'B'){
             totalCorrect = totalCorrect + 1;
@@ -60,6 +60,20 @@ public class HWCh531 {
         }
         
         
+        
+        System.out.println("What country has the largest quantity of Natural Gas?");
+        System.out.println("A. Iraq");
+        System.out.println("B. Brazil");
+        System.out.println("C. USA");
+        System.out.println("D. Alaska");
+        
+        answer2 = input.nextChar();
+        
+        if(answer2 == 'C'){
+            
+        }else if(answer2 == 'c'){
+            
+        }
         
         
     }
