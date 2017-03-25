@@ -28,6 +28,7 @@ public class HW624 {
         
         
         int i = toTest;
+        int ii= 0;
         int sum = 0;
         while(i > 0){
             if(toTest % i == 0){
@@ -38,7 +39,10 @@ public class HW624 {
         }
         sum = sum - toTest;
         if(toTest == sum){
-            System.out.println(toTest + " Is perfect ");
+            System.out.println(toTest);
+            
+            
+            
             return toTest;
         }else{
             
@@ -49,13 +53,18 @@ public class HW624 {
     
     public static void main(String[] args) {
         int testAll = 1;
-        
+        double death = 1000000000 * 9;
         HW624 perfectTest = new HW624();
         
         
-        for(;testAll < 1000; testAll++){
-        perfectTest.isPerfect(testAll);}
+        for(;testAll < death; testAll++){
+        perfectTest.isPerfect(testAll);
+            if(testAll % 100000 == 0){
+                System.out.println("another Million Down!!!");
+        }
+        }
         
+        System.out.println("Finished");
         
     }
     
