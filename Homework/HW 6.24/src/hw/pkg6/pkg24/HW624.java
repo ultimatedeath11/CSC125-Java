@@ -27,40 +27,37 @@ public class HW624 {
     public int isPerfect(int toTest){
         
         
-        int i = toTest;
-        int ii= 0;
-        int sum = 0;
+        int i = toTest; //varialbe for looping 
+        int sum = 0;//varialbe for total to see if it adds up
         while(i > 0){
             if(toTest % i == 0){
                 sum = sum + i;
             }
             
-            i = i-1;
+            i = i-1;//going through the loop
         }
-        sum = sum - toTest;
+        sum = sum - toTest;//if it is perfect sum should be twice toTest so i make it equal
         if(toTest == sum){
             System.out.println(toTest);
-            
-            
-            
-            return toTest;
+          
+            return toTest;//returning number if it is perfect
         }else{
             
-            return toTest;
+            return toTest;//returns nothing if not perfect. 
         }
         
     }
     
     public static void main(String[] args) {
-        int testAll = 1;
-        double death = 1000000000 * 9;
-        HW624 perfectTest = new HW624();
+        int testAll = 1;//what was being looped
+        double death = 1000000000 * 9;//what was being tested After having it run for an hour I only found 4
+        HW624 perfectTest = new HW624();//call method constructor
         
         
         for(;testAll < death; testAll++){
-        perfectTest.isPerfect(testAll);
+        perfectTest.isPerfect(testAll);//invoking method
             if(testAll % 100000 == 0){
-                System.out.println("another Million Down!!!");
+                System.out.println("another Million Down!!!");//determining that it is still running.
         }
         }
         
