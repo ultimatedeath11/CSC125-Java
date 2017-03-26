@@ -22,18 +22,20 @@ public class HW625 {
     
     public static int isPrime(int i){
         
+        //for this I use 2 variables that I use to count how many factors each number is used
+        
             int factors = 0;
             int j = 1;
 
-            while(j <= i)
+            while(j <= i)//making sure to not test above what was given
             {
                 if(i % j == 0)
                 {
-                    factors++;
+                    factors++;//every tme it is true it adds one to variable factors
                 }
                 j++;
             }
-            if (factors == 2)
+            if (factors == 2) //checking for when the variables are equal to 2 it is prime
             {
                 System.out.println(i);
             }
@@ -43,9 +45,9 @@ public class HW625 {
     
     
     public static void main(String[] args) {
-        int test = 1;
-        for(;test < 100; test++)
-        isPrime(test);
+        int test = 1;//variable for moving. 
+        for(;test < 10000; test++)//testing for numbers up to 100
+        isPrime(test);//invoking the static method
     }
     
 }
