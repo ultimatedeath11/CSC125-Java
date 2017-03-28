@@ -21,28 +21,29 @@ public class HW626 {
      */
     
     public static int reverse(int n){
-        int reverse = 0;
+        int reverse = 0;//varialbe for reversing the numbers
         
         
-      while( n != 0 )
-      {
-          reverse = reverse * 10;
-          reverse = reverse + n%10;
-          n = n/10;
+        while( n != 0 ) //looping the changes
+        {
+            reverse = reverse * 10; //moving decimal
+            reverse = reverse + n%10; //changing the location of the decimal
+            n = n/10; //applying the decimal to it
       }
  
       System.out.println(reverse);
-      return reverse;
+      return reverse;//returning the integer back to the main method
     }
     
     public static void main(String[] args) {
-        int num;
+        int num;//inputed number
         
         Scanner input = new Scanner(System.in);
         
         System.out.println("Please enter a number to be reversed:");
         num = input.nextInt();
-        reverse(num);
+        reverse(num);//calling the method, not needed for constructor because it is static
+        
     }
     
 }
