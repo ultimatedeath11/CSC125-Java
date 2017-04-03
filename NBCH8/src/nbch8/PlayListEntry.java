@@ -21,5 +21,31 @@ No constructor  need be defined.
  * @author NoahFranck
  */
 public class PlayListEntry {
+    private String title = "";
+    private String artist = "";
+    private int playCount;
     
+    public void setTitle(String a){
+        title = a;
+    }
+    
+    public void setArtist(String b){
+        artist = b;
+    }
+    
+    public void setPlayCount(int a){
+        playCount = a;
+    }
+    
+    public String getTitle(){
+        return title;
+    }
+    
+    public String getArtist(){
+        return artist;
+    }
+    
+    public int getPlayCount(){
+        return playCount;
+    }
 }
