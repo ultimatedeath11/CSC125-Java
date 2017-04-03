@@ -92,8 +92,8 @@ public class Ch9Inclass extends Object{
       "commission emploee", firstName, lastName, "Social Security Number",
       socialSecurityNumber, "gross sales", grossSales, "commission rate",
        CommissionRate);
-    }//end of the commissionEmployee class.
+    }
+  }//end of the commissionEmployee class.
 
 
     //end of figure 9.4 form pg 366-368.
-    
