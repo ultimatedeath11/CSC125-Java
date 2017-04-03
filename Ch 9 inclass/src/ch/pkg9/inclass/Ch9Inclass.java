@@ -16,41 +16,84 @@ public class Ch9Inclass extends Object{
     private final String socialSecurityNumber;
     private double grossSales;//gross weekly sales
     private double CommissionRate; //commission percentage
-    
-    public Ch9Inclass(String firtName, String lastName, String 
+
+    public Ch9Inclass(String firtName, String lastName, String
             SocialSecurityNumber, double grossSales, double CommissionRate){
         //implicitely call to object's default customomer occurs here
-        
+
         // if grossSales is invalad throw an exception
         if(grossSales < 0.0)
             throw new IllegalArgumentException("Gross Sales must be >= 0.0");
-        
+
         //if commissionRate is invalid thow exception
         if(CommissionRate <= 0.0 || CommissionRate >= 1.0)
             throw new IllegalArgumentException("Commission rate must be > 0.0 "
                     + "and < 1.0");
-        
+
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
         this.grossSales = grossSales;
         this.CommissionRate = CommissionRate;
     }//end of the constructor
-    
+
     //returning the first name
     public String getFirstName(){
         return firstName;
     }
-    
+
     //return last name
     public String getLastName(){
         return lastName;
     }
-    
-    
-    
-    public static void main(String[] args) {
-        //working on extending classes
+
+    //return social security number
+    public String getSocialSecurityNumber(){
+      return socialSecurityNumber;
     }
+
+    //set gross sales amount
+    public void setGrossSales(double grossSales){
+      if(grossSales < 0.0){
+        throw new IllegalArgumentException("Gross sales must be >= 0.0");
+      }
+      this.grossSales = grossSales;
+    }
+
+    //return gross sales
+    public double getGrossSales(){
+      return grossSales;
+    }
+
+    //set commission rate
+    public void setCommissionRate(double commissionRate){
+      if(commissionRate <= 0.0 || commissionRate >= 1.0){
+        throw new IllegalArgumentException("Commission rate must be > 0.0 and
+         < 1.0");
+
+         this.commissionRate = commissionRate;
+       }
+     }
+
+    //return the commission rate
+    public double getCommisssionRate(){
+      return CommissionRate;
+    }
+
+    //calculate earnings
+    public double earnings(){
+      reutn commissionRate * grossSales;
+    }
+
+    //return string representation of commissionemployee object
+    @Override //indicates that this method overrides a superclass method
+    public String toString(){
+      return String.format("%s: %s %s%n%s: %s%n%s: %s%n%s: %.2f%n%s: %.2f",
+      "commission emploee", firstName, lastName, "Social Security Number",
+      socialSecurityNumber, "gross sales", grossSales, "commission rate",
+       CommissionRate);
+    }//end of the commissionEmployee class.
+
+
+    //end of figure 9.4 form pg 366-368.
     
-}
