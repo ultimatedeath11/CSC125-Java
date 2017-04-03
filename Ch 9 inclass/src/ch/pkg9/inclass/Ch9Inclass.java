@@ -15,10 +15,10 @@ public class Ch9Inclass extends Object{
     private final String lastName;
     private final String socialSecurityNumber;
     private double grossSales;//gross weekly sales
-    private double commissionRate; //commission percentage
+    private double CommissionRate; //commission percentage
     
     public Ch9Inclass(String firtName, String lastName, String 
-            SocialSecurityNumber, double grossSales, double commissionRate){
+            SocialSecurityNumber, double grossSales, double CommissionRate){
         //implicitely call to object's default customomer occurs here
         
         // if grossSales is invalad throw an exception
@@ -26,12 +26,27 @@ public class Ch9Inclass extends Object{
             throw new IllegalArgumentException("Gross Sales must be >= 0.0");
         
         //if commissionRate is invalid thow exception
-        if(CommissionRate <= 0.0 || comissionTate >= 1.0)
+        if(CommissionRate <= 0.0 || CommissionRate >= 1.0)
             throw new IllegalArgumentException("Commission rate must be > 0.0 "
                     + "and < 1.0");
         
-        
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.socialSecurityNumber = socialSecurityNumber;
+        this.grossSales = grossSales;
+        this.CommissionRate = CommissionRate;
+    }//end of the constructor
+    
+    //returning the first name
+    public String getFirstName(){
+        return firstName;
     }
+    
+    //return last name
+    public String getLastName(){
+        return lastName;
+    }
+    
     
     
     public static void main(String[] args) {
