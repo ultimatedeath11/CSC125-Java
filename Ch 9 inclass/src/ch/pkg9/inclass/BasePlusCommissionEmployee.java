@@ -9,7 +9,7 @@ package ch.pkg9.inclass;
  * //figure 9.8 from textbook trying to work with extending and inheritence
  * @author NoahFranck
  */
-public class BasePlusCommissionEmployee extends Ch9Inclass{
+public class BasePlusCommissionEmployee extends CommissionEmployee{
     private double baseSalary; // base salary per week
     
     //six - argument constructor
@@ -56,7 +56,7 @@ public class BasePlusCommissionEmployee extends Ch9Inclass{
         return String.format(
             "%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f%n%s: %.2f%n%s: %f",
             "base-salaried commission employee",
-            firstName, LastName, "Social Security Number", "Gross sales",
+            firstName, lastName, "Social Security Number", "Gross sales",
             grossSales, "Commission rate", CommissionRate,
             "Base salary", baseSalary
                 
