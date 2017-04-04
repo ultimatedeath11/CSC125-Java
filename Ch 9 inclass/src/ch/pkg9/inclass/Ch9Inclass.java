@@ -16,6 +16,8 @@ public class Ch9Inclass extends Object{
     private final String socialSecurityNumber;
     private double grossSales;//gross weekly sales
     private double CommissionRate; //commission percentage
+    
+    //because private can not be accessed by subclasses. 
 
     public Ch9Inclass(String firstName, String lastName, String
             socialSecurityNumber, double grossSales, double CommissionRate){

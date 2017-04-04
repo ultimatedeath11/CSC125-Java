@@ -15,6 +15,8 @@ public class CommissionEmployee extends Object{
     protected final String socialSecurityNumber;
     protected double grossSales;//gross weekly sales
     protected double CommissionRate; //commission percentage
+    
+//    protected files can be accessed by subclasses
 
     public CommissionEmployee(String firstName, String lastName, String
             socialSecurityNumber, double grossSales, double CommissionRate){
