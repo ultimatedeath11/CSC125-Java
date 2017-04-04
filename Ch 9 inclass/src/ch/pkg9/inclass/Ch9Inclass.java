@@ -8,7 +8,7 @@ package ch.pkg9.inclass;
 /**
  *
  * @author NoahFranck
- * from textbook pg. 366
+ * from textbook figure 9.4 (pg. 366) 
  */
 public class Ch9Inclass extends Object{
     private final String firstName;

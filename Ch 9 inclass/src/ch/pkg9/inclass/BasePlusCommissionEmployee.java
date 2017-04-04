@@ -60,7 +60,7 @@ public class BasePlusCommissionEmployee extends Ch9Inclass{
             grossSales, "Commission rate", CommissionRate,
             "Base salary", baseSalary
                 
-                //this is not allowed to access the private superclass info. 
+            //this is not allowed to access the private superclass info. 
         );
     }
     
