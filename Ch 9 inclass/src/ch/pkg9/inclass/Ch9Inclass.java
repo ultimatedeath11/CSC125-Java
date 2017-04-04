@@ -17,8 +17,8 @@ public class Ch9Inclass extends Object{
     private double grossSales;//gross weekly sales
     private double CommissionRate; //commission percentage
 
-    public Ch9Inclass(String firtName, String lastName, String
-            SocialSecurityNumber, double grossSales, double CommissionRate){
+    public Ch9Inclass(String firstName, String lastName, String
+            socialSecurityNumber, double grossSales, double CommissionRate){
         //implicitely call to object's default customomer occurs here
 
         // if grossSales is invalad throw an exception
@@ -66,13 +66,13 @@ public class Ch9Inclass extends Object{
     }
 
     //set commission rate
-    public void setCommissionRate(double commissionRate){
-      if(commissionRate <= 0.0 || commissionRate >= 1.0){
-        throw new IllegalArgumentException("Commission rate must be > 0.0 and
-         < 1.0");
+    public void setCommissionRate(double CommissionRate){
+      if(CommissionRate <= 0.0 || CommissionRate >= 1.0)
+        throw new IllegalArgumentException("Commission rate must be > 0.0 and "
+                + "< 1.0");
 
-         this.commissionRate = commissionRate;
-       }
+        this.CommissionRate = CommissionRate;
+       
      }
 
     //return the commission rate
@@ -82,7 +82,7 @@ public class Ch9Inclass extends Object{
 
     //calculate earnings
     public double earnings(){
-      reutn commissionRate * grossSales;
+      return CommissionRate * grossSales;
     }
 
     //return string representation of commissionemployee object
