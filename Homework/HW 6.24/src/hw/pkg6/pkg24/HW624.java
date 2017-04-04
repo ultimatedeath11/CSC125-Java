@@ -40,11 +40,8 @@ public class HW624 {
         if(toTest == sum){
             System.out.println(toTest);
           
-            return toTest;//returning number if it is perfect
-        }else{
             
-            return toTest;//returns nothing if not perfect. 
-        }
+        }return toTest;
         
     }
     
