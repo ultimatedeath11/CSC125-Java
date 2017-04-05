@@ -19,7 +19,19 @@ A method  named  getGasLevel that accepts no parameters .
  * @author NoahFranck
  */
 public class GasTank {
+    private double amount;
     
     
+    public void addGas(double a){
+        amount = amount + a;
+    }
+    
+    public void useGas(double a){
+        amount = amount - a;
+    }
+    
+    public double getGasLevel(){
+        return amount;
+    }
     
 }
