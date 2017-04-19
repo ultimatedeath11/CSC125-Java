@@ -47,7 +47,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
     @Override
     public double earnings(){
         return baseSalary + (CommissionRate * grossSales);
-        //this is an error because It is not allowed to access this file
+        
     }
     
     //return Stirng representation of BasePlusCommissionEmploye
@@ -60,7 +60,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee{
             grossSales, "Commission rate", CommissionRate,
             "Base salary", baseSalary
                 
-            //this is not allowed to access the private superclass info. 
+            
         );
     }
     

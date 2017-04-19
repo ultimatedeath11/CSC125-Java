@@ -22,5 +22,32 @@ No constructor  need be defined. Be sure to define instance variables  as
  * @author NoahFranck
  */
 public class WeatherForecast {
+    private String skies = "";
+    private int high,
+            low;
+    
+    public void setSkies(String a){
+       skies = a;
+    }
+    
+    public void setHigh(int a){
+        high = a;
+    }
+    
+    public void setLow(int a){
+        low = a;
+    }
+    
+    public int getHigh(){
+        return high;
+    }
+    
+    public int getLow(){
+        return low;
+    }
+    
+    public String getSkies(){
+        return skies;
+    }
     
 }
