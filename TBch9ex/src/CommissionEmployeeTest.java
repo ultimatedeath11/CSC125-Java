@@ -15,6 +15,8 @@ public class CommissionEmployeeTest {
         "Sue","Jones", "222-222-2222", 10000, .06);
         
         //get commission employee data
+        System.out.println("Employee information obtained by get methods:");
+        System.out.printf("%n%s %s%n,", "First name is", employee.getFirstName());
         
     }
     
