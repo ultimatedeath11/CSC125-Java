@@ -82,6 +82,10 @@ public class BasePlusCommissionEmployee extends Object {
         this.baseSalary = baseSalary;
     }
     
+    public double getBaseSalary(){
+        return baseSalary;
+    }
+    
     //calculating earnings
     public double earnings(){
         return commissionRate * grossSales;
