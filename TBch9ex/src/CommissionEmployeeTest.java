@@ -11,7 +11,7 @@
 public class CommissionEmployeeTest {
     public static void main(String[] args){
         //instantaine commissionEmployee object
-        CommissionEmployee employee = new commissionEmployee(
+        CommissionEmployee employee = new CommissionEmployee(
         "Sue","Jones", "222-222-2222", 10000, .06);
         
         //get commission employee data

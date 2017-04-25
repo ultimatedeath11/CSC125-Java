@@ -16,7 +16,7 @@ public class CommissionEmployee extends Object {
     private double commissionRate;
     
     //fige-argument constructor
-    public CommissionEmployee(String firstName, String LastName, 
+    public CommissionEmployee(String firstName, String lastName, 
             String socialSecurityNumber, double grossSales, 
             double CommissionRate){
         //implicit call to object's default constructor occurs here. 
