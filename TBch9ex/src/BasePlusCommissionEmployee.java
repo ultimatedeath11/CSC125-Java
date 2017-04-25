@@ -14,11 +14,12 @@ public class BasePlusCommissionEmployee {
     private final String SocialSecurityNumber;
     private double grossSales;
     private double commissionRate;
+    private double baseSalary; //base salary for the employee a WEEK
     
     //fige-argument constructor
     public CommissionEmployee(String firstName, String lastName, 
             String socialSecurityNumber, double grossSales, 
-            double CommissionRate){
+            double CommissionRate, double baseSalary){
         //implicit call to object's default constructor occurs here. 
         
         //if grossSales is invalid throw exception
@@ -30,6 +31,8 @@ public class BasePlusCommissionEmployee {
             throw new IllegalArgumentException("Commission rate must be >= 0.0"
             +"and < 1.0");
         
+        if(baseSalary<0.0)
+            throw new IllegalArgumentException("Base Salary must be >= 0.0");
         
         //setting everyhing = to everything else
         this.firstName = firstName;
@@ -37,6 +40,7 @@ public class BasePlusCommissionEmployee {
         this.SocialSecurityNumber = socialSecurityNumber;
         this.commissionRate = CommissionRate;
         this.grossSales = grossSales;
+        this.baseSalary = baseSalary;
     }
     
     public String getFirstName(){
