@@ -8,8 +8,8 @@
  *
  * @author NoahFranck
  */
-public class BasePlusCommissionEmployee {
-        private final String firstName;
+public class BasePlusCommissionEmployee extends Object {
+    private final String firstName;
     private final String lastName;
     private final String SocialSecurityNumber;
     private double grossSales;
@@ -17,7 +17,7 @@ public class BasePlusCommissionEmployee {
     private double baseSalary; //base salary for the employee a WEEK
     
     //fige-argument constructor
-    public CommissionEmployee(String firstName, String lastName, 
+    public BasePlusCommissionEmployee(String firstName, String lastName, 
             String socialSecurityNumber, double grossSales, 
             double CommissionRate, double baseSalary){
         //implicit call to object's default constructor occurs here. 
@@ -74,6 +74,12 @@ public class BasePlusCommissionEmployee {
     
     public double getCommisssionRate(){
         return commissionRate;
+    }
+    
+    public void setBaseSalary(){
+        if(baseSalary < 0.0)
+            throw new IllegalArgumentException("Base Slary must be >= to 0.0");
+        this.baseSalary = baseSalary;
     }
     
     //calculating earnings
