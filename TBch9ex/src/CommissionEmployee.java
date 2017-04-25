@@ -62,7 +62,7 @@ public class CommissionEmployee extends Object {
     }
     
     public void setCommissionRate(double commissionRate){
-        if(commissionRate > 0.0 || commissionRate < 1.0)
+        if(commissionRate < 0.0 || commissionRate > 1.0)
             throw new IllegalArgumentException("Commission Rate has to be "
                     + "between 0.0 & 1.0 ");
     this.commissionRate = commissionRate;
