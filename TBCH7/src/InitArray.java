@@ -27,6 +27,8 @@ public class InitArray {
             60,
             37
         };
+        
+        
                 
         System.out.printf("%s%8s%n", "Index", "value");//column headings
         
