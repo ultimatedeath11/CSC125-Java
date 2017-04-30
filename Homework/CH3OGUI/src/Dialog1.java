@@ -20,7 +20,7 @@ public class Dialog1 {
         
         //Display a dialog with a message
         JOptionPane.showMessageDialog(null,"Welcome to Java");
-        
+        //Don't know why it is null in the above section. 
     }
     
 }
