@@ -4,25 +4,19 @@
  * and open the template in the editor.
  */
 
+
+
 /**
  *
- * Drawing application that is able to draw stuff. I am testing. 
- * 
  * @author NoahFranck
  */
-
-import java.awt.Graphics;
-import javax.swing.JPanel;
-
-public class DrawPanel {
+public class DrawPanelTest {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        
-        
+        // TODO code application logic here
     }
     
 }
