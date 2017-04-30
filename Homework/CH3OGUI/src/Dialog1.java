@@ -8,13 +8,19 @@
  *
  * @author NoahFranck
  */
+
+import javax.swing.JOptionPane;
+
 public class Dialog1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        //Display a dialog with a message
+        JOptionPane.showMessageDialog(null,"Welcome to Java");
+        
     }
     
 }
