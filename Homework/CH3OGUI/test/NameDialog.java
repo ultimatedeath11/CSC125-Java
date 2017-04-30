@@ -18,6 +18,16 @@ public class NameDialog {
      */
     public static void main(String[] args) {
     
+        //promt user to enter name
+        String Name = JOptionPane.showInputDialog("What is your name");
+        
+        //creating the message
+        String Message = String.format("Welcome, %s, to Java Programming!",Name);
+        
+        //display the message to welcome the user
+        JOptionPane.showMessageDialog(null, Message);
+        
+        
     }
     
 }
