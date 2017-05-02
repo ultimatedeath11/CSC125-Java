@@ -22,6 +22,11 @@ public class MainClass {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
+        int SizeOfMatrix = 0; //variable for the dimensions of the matrix
+        
+        //below will ask the user and then will pass their answer into the var
+        System.out.println("Please enter the dimensions of the Matrix");
+        SizeOfMatrix = input.nextInt();
         
         
         
