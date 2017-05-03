@@ -25,15 +25,28 @@ public class MainClass {
         Scanner input = new Scanner(System.in);
         
         //below will be variables creation
+        int row = 0;
         int SizeOfMatrix = 0; //variable for the dimensions of the matrix
-        double matrix1[][];//creating the first two dimensional array
-        double matrix2[][];//creating the second 2 dimenisonal array
-        double Solution[]; //array for solutions to be printed. 
+        int height = 0;
+        int Solution[]; //array for solutions to be printed. 
         //maybe redundant based on wheather I use methods or not. 
         
         //below will ask the user and then will pass their answer into the var
         System.out.println("Please enter the dimensions of the Matrix");
         SizeOfMatrix = input.nextInt();
+        
+        int matrix1[][] = new int[SizeOfMatrix][SizeOfMatrix];//creating the first two dimensional array
+        int matrix2[][] = new int [SizeOfMatrix][SizeOfMatrix];//creating the second 2 dimenisonal array
+        
+        
+        //below double loop will fill ANY size matrix based on the dimensions. 
+        for(;height < SizeOfMatrix; height ++){
+        for (; row <  matrix1.length; row++) {
+            System.out.print("Enter what you would like at position ("+ row+","+height +")");
+            matrix1[row][height] = input.nextInt();  
+        } row = 0;
+        }
+        
         
         
         
