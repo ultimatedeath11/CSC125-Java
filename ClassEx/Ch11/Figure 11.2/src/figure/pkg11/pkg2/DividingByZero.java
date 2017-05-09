@@ -11,6 +11,11 @@ package figure.pkg11.pkg2;
  */
 public class DividingByZero {
 
+    //demonstrates throwing an exception when a divided-by-zero occurs
+    public static int quotient(int numerator, int denominator){
+        return numerator / denominator; //possible here to divide by 0
+    }
+    
     /**
      * @param args the command line arguments
      */
