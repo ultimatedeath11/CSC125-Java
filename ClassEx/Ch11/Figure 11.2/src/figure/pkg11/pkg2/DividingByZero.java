@@ -5,6 +5,8 @@
  */
 package figure.pkg11.pkg2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author NoahFranck
@@ -21,8 +23,17 @@ public class DividingByZero {
      */
     public static void main(String[] args) {
         
+        Scanner in = new Scanner(System.in);
         
+        //below's block of code is the user's input
+        System.out.println("Please enter an integer numerator: ");
+        int numerator = in.nextInt();
+        System.out.println("Please enter an integer denominator: ");
+        int denominator = in.nextInt();
         
+        //below's code is outputting the answer and assigning the answer by method.
+        int result = quotient(numerator, denominator);
+        System.out.printf("%nResult: %d / %d = %d%n",numerator, denominator, result);
         
     }
     
