@@ -16,8 +16,8 @@ public class UsingExceptions {
         
         try{
             throwException();
-        } catch(Exception exception) //exception thrown by throwException
-        {
+        } //exception thrown by throwException
+        catch(Exception exception) {
             System.err.println("Exception in handled in main");
         }
         
@@ -36,11 +36,11 @@ public class UsingExceptions {
             
             //code here is not reachable and would cause a compile error. 
             
-        }finally//executes reguardless of what occurs in the try...catch
-        {
+        }//executes reguardless of what occurs in the try...catch
+        finally{
             System.err.println("Finally executed in throwException");
         }
-        //cod ehere would not be reached and would cause a compile error. 
+        //code here would not be reached and would cause a compile error. 
     }
 
     //demonstrate finally when no exception occurs
