@@ -14,7 +14,8 @@ import java.util.Scanner;
  */
 public class DividinByZeroWIthExcetionHandeling {
 //demonstrates throwing an exception when '/ by 0' occurs. 
-    public static int quotient(int n, int d) throws ArithmeticException {
+    public static int quotient(int n, int d)
+            throws ArithmeticException {
         return n/d;
     }//possible division by zero
     
@@ -29,19 +30,23 @@ public class DividinByZeroWIthExcetionHandeling {
             try{ //read 2 numbers and calculate quoient
                 System.out.print("Enter a Numerator: ");
                 int numer = Scanner.nextInt();
-                System.out.print("please enter a Denominator");
+                System.out.print("please enter a Denominator: ");
                 int denom = Scanner.nextInt();
                 
                 int result = quotient(numer, denom);
                 System.out.printf("%nResult: %d / %d = %d%n",numer, denom,
                         result);
                 continueLoop = false; //input Sucessful; end looping process. 
-            }catch (InputMismatchException inputMismatchExcetption){
+            }
+            
+            catch (InputMismatchException inputMismatchException){
                 System.err.printf("%nException: %s%n", inputMismatchException);
                 Scanner.nextLine();//discard input so user can input another
                 System.out.printf("You must enter integers. Please try again. "
                         + "%n%n");   
-            }catch(ArithmeticException arithmeticException){
+            }
+            
+            catch(ArithmeticException arithmeticException){
                 System.err.printf("%nException:%s%n", arithmeticException);
                 System.out.printf("Zero is an invalid Denominator. Please try"
                         + "again %n%n");
