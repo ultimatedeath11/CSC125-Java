@@ -43,5 +43,19 @@ public class UsingExceptions {
         //cod ehere would not be reached and would cause a compile error. 
     }
 
-   
+    //demonstrate finally when no exception occurs
+    private static void doesNotThrowException() {
+        try//try block does not throw an exception
+        {
+            System.out.println("Method doesnotThrowException");
+        }catch(Exception exception) //does not execute
+        {
+            System.err.println(exception);
+        }finally//executes reguardless of what occurs in try..catch 
+        {
+            System.err.println("Finally excuted in doesNotThrowException");
+        }
+        
+        System.out.println("end of Method doesNotThrowException");
+    }
 }
