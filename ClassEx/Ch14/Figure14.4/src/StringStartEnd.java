@@ -24,6 +24,8 @@ public class StringStartEnd {
         
         //test method startsWith
         for(String string : strings){
+            //method 'startsWith("")' returns a boolean to determin if the
+            //string's first few characters atches the arg's parameters
             if(string.startsWith("st"))
                 System.out.printf("\"%s\" starts with \"st\"%n", string);
         }
