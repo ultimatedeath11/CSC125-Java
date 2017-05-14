@@ -1,0 +1,9 @@
+run:
+Method throwException
+Exception handled in method throwException
+Method doesnotThrowException
+Finally executed in throwException
+Exception in handled in main
+Finally excuted in doesNotThrowException
+end of Method doesNotThrowException
+BUILD SUCCESSFUL (total time: 1 second)

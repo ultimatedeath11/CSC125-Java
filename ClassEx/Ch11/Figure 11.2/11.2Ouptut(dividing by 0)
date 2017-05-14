@@ -1,0 +1,10 @@
+run:
+Please enter an integer numerator: 
+100
+Please enter an integer denominator: 
+0
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at figure.pkg11.pkg2.DividingByZero.quotient(DividingByZero.java:18)
+	at figure.pkg11.pkg2.DividingByZero.main(DividingByZero.java:35)
+/Users/NoahFranck/Library/Caches/NetBeans/8.2/executor-snippets/run.xml:53: Java returned: 1
+BUILD FAILED (total time: 7 seconds)

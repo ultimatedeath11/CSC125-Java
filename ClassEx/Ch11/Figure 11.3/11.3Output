@@ -1,0 +1,18 @@
+run:
+Enter a Numerator: 100
+please enter a Denominator: hello
+
+Exception: java.util.InputMismatchException
+You must enter integers. Please try again. 
+
+Enter a Numerator: 100
+please enter a Denominator: 0
+
+Zero is an invalid Denominator. Please tryagain 
+
+Exception:java.lang.ArithmeticException: / by zero
+Enter a Numerator: 100
+please enter a Denominator: 7
+
+Result: 100 / 7 = 14
+BUILD SUCCESSFUL (total time: 14 seconds)

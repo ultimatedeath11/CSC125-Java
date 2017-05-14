@@ -1,0 +1,13 @@
+run:
+java.lang.Exception: Exception thrown in method1
+	at UsingChainedExceptions.method1(UsingChainedExceptions.java:30)
+	at UsingChainedExceptions.main(UsingChainedExceptions.java:19)
+Caused by: java.lang.Exception: Exception thrown in method2
+	at UsingChainedExceptions.method2(UsingChainedExceptions.java:38)
+	at UsingChainedExceptions.method1(UsingChainedExceptions.java:28)
+	... 1 more
+Caused by: java.lang.Exception: Exception thrown in method3
+	at UsingChainedExceptions.method3(UsingChainedExceptions.java:43)
+	at UsingChainedExceptions.method2(UsingChainedExceptions.java:36)
+	... 2 more
+BUILD SUCCESSFUL (total time: 0 seconds)
