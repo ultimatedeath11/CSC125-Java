@@ -1,0 +1,24 @@
+ant -f /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_19 -Dnb.internal.action.name=run run
+init:
+deps-jar:
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_19/build
+Updating property file: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_19/build/built-jar.properties
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_19/build/classes
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_19/build/empty
+Created dir: /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_19/build/generated-sources/ap-source-output
+Compiling 1 source file to /Users/NoahFranck/Desktop/WIP/CSC125-Java/Ch4_19/build/classes
+compile:
+run:
+Please enter the quantity of item 1 sold 
+>6
+How many did the same seller sell of item 2?
+>3
+Please enter the quantity of item 3 that was sold?
+>6
+Please enter the quantity of item 4 that was sold?
+>3
+Please enter the quantity of item 5 that was sold?
+>9
+this is the amount that employee number 1recieved from commission $16441.559999999998
+And this is how much money he will get over all $16641.559999999998Please enter the quantity of item 1 sold 
+>

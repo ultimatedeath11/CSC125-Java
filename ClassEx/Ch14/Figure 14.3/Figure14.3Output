@@ -1,0 +1,19 @@
+run:
+s1 = hello
+s2 = goodbye
+s3 = Happy Birthday
+s4 = happy birthday
+
+S1 equals "hello"
+S1 is not the same object as "Hello"
+s3 equals Happy Birthday with case ignored
+
+s1.compareTo(s2) is 1
+s2.compareTo(s1) is -1
+s1.compareTo(s1) is 0
+s3.compareTo(s4) is -32
+s4.compareTo(s3) is 32
+
+First 5 character of s3 adn s4 do not match
+First 5 characters of s3 and s4 match with case ignored
+BUILD SUCCESSFUL (total time: 3 seconds)

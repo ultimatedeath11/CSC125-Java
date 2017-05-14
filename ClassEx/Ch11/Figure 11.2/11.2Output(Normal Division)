@@ -1,0 +1,8 @@
+run:
+Please enter an integer numerator: 
+100
+Please enter an integer denominator: 
+14
+
+Result: 100 / 14 = 7
+BUILD SUCCESSFUL (total time: 6 seconds)
