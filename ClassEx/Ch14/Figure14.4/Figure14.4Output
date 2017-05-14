@@ -1,0 +1,10 @@
+run:
+"started" starts with "st"
+"starting" starts with "st"
+
+"started" starts with "art" at position 2
+"starting" starts with "art" at position 2
+
+"started" ends with "ed"
+"ended" ends with "ed"
+BUILD SUCCESSFUL (total time: 0 seconds)
